@@ -17,6 +17,11 @@ p {
   color: white;
 }
 
+.secTitle {
+   background-color: yellow;
+   padding: 15px;
+}
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
