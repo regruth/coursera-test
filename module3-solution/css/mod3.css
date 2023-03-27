@@ -1,0 +1,67 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+.navbar-brand {
+font-family: 'Comic Neue';
+font-weight: bold;
+}
+
+#navbar-brand {
+color: black;
+}
+
+.menu {
+font-family: 'Comic Neue';
+font-weight: bold;
+font-size: 14pt;
+}
+
+.mainContent {
+  padding: 20px;
+
+}
+.innerMain {
+  padding: 20px;
+  background-color: #999999;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) {
+  .col-md-12 {
+    float: left;
+    height: 175px;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 577px) and (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    height: 175px;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+/********** Extra Small devices only **********/
+@media (max-width: 576px) {
+  .col-xs-12 {
+    float: left;
+    height: 175px;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+}
